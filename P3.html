@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html style="background-color: darkgray;">
+<title>Guiang Kelly</title>
+    <head>
+        <meta name="viewport,name" content="width=device-width, intial-scale=1.0,Kelly">
+    </head>
+        <style>
+            .animation {
+                animation-name:transitionIn;
+            }
+            
+            @keyframes transitionIn {
+                from { 
+                    opacity: 0;
+                    transform: rotateX(-10deg);
+                }
+                to {
+                    opacity: 1;
+                    transform: rotateX(0);
+
+                }
+                
+                }
+
+            .button { 
+                justify-content: space-between;
+                flex-direction: column;
+                display: flex;
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color:hsl(0, 0%, 51%);
+                color: black;
+                text-align: center;
+                font-size: 30px;
+                border-radius: 30px;
+                padding: 16px 15px;
+                text-decoration: none;
+                line-height: 47px;  
+                cursor: pointer;
+                padding: 5px 16px;
+                transition-duration: 1ms;
+            }
+            .button1 {
+                background-color:hsl(0, 0%, 51%);
+                justify-content: flex-end;
+                display: flex; 
+            }
+            .button1:hover {
+                background-color:hsl(0, 0%, 41%) ;
+            }
+            * {box-sizing: border-box;}
+            .row {
+                    display: -ms-flexbox; 
+                    display: flex;
+                    -ms-flex-wrap: wrap; 
+                    flex-wrap: wrap;
+                    padding: 0 4px; 
+                    
+                  }
+            .column {
+                    -ms-flex: 25%;
+                    flex: 25%;
+                    max-height: 55%;
+                    padding: 0 4px;
+                  }
+            .column img {
+                    margin-top: 10px;
+                    vertical-align:middle;
+                    height: 390px;
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);      
+                  }
+            .row img {
+              margin-bottom: 0.5%;
+              margin-left: 0.5% ;
+            }       
+            .previous{ 
+            justify-content: space-between;
+            flex-direction: column;
+            display: flex;
+            position:fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color:hsl(0, 0%, 51%);
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 30px;
+            padding: 16px 15px;
+            text-decoration: none;
+            line-height: 47px;  
+            cursor: pointer;
+            padding: 5px 16px;   
+        }
+        .previous2 {
+            background-color:hsl(0, 0%, 51%);
+            justify-content: flex-end;
+            display: flex; 
+
+        }
+        .previous:hover {
+            background-color:hsl(0, 0%, 41%);
+        }
+        </style>
+        <body>
+<div style="animation: transitionIn 2s;">
+            <div style="font-size: 45px; text-align: center; font-family: Cambria;font-weight: bold; background-color: hsl(0, 0%, 45%); padding: 1%; border-radius: 10px;"> Hobbies</div>
+            <div style="font-weight: bold;" ><a href="P4.html" class="button button1 button2"> Next >> </a></div> <br>
+          <div class="row">
+            <div class="column">         
+           <img src="images/H1.jpg" alt="Baker" height="200px"> 
+           <img src="images/H2.jpg" alt="Pilates" height="200px" >
+           <img src="images/H3.jpg" alt="Badminton" height="200px">
+           <img src="images/H5.jpg" alt="Skin Care" height="200px">
+           <img src="images/H6.jpg" alt="Netflix" height="200px">
+           <img src="images/H7.jpg" alt="Cooking" height="200px">
+           <img src="images/H8.jpg" alt="Night Out" height="200px">
+           <img src="images/H9.jpg" alt="Meditate" height="200px">
+           <img src="images/H11.jpg" alt="Book Reading" height="200px" >
+           <div style="font-weight: bold;"><a href="P2.html" class="previous previous2"> << previous </a></div>
+            </div>
+          </div>
+</div>
+        </body>
+  
+</html>

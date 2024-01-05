@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html style="background-color: darkgray;">
+<title>Guiang Kelly</title>
+    <head>
+        <meta name="viewport,name" content="width=intial-scale=1.0,Kelly">
+    </head>
+    <style>
+        .animation {
+            animation-name:transitionIn;
+        }
+         
+            @keyframes transitionIn {
+                from { 
+                    opacity: 0;
+                    transform: rotateX(-10deg);
+                }
+                to {
+                    opacity: 1;
+                    transform: rotateX(0);
+
+                }
+                
+                }
+                
+        .column {
+                    -ms-flex: 25%;
+                    flex: 25%;
+                    max-height: 55%;
+                    padding: 0 4px;
+                  }
+            .column img {
+                    margin-top: 10px;
+                    vertical-align:middle;
+                    height: 253px;
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+                    ani   
+                  }
+            .row img {
+              margin-bottom: 0.5%;
+              margin-left: 0.5% ;
+            }    
+            .previous{ 
+            justify-content: space-between;
+            flex-direction: column;
+            display: flex;
+            position:fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color:hsl(0, 0%, 51%);
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 30px;
+            padding: 16px 15px;
+            text-decoration: none;
+            line-height: 47px;  
+            cursor: pointer;
+            padding: 5px 16px;   
+        }
+        .previous2 {
+            background-color:hsl(0, 0%, 51%);
+            justify-content: flex-end;
+            display: flex; 
+
+        }
+        .previous:hover {
+            background-color:hsl(0, 0%, 41%);
+        }
+    </style>
+        <body>
+            <div style="animation: transitionIn 0.5s;">
+            <div style="font-size: 45px; text-align: center; font-family: Cambria;font-weight: bold; background-color: hsl(0, 0%, 45%); padding: 1%; border-radius: 10px;"> Strength and Weaknesses</div>
+            <div class="row">
+                <div class="column">
+            <img src="images/SW1.jpg" height="200px">
+            <img src="images/SW2.jpg" height="200px">
+            <img src="images/SW3.jpg" height="200px">
+            <img src="images/SW4.jpg" height="200px">
+            <img src="images/SW5.jpg" height="200px">
+            <img src="images/SW6.jpg" height="200px">
+            <img src="images/SW7.jpg" height="200px">
+            <img src="images/SW8.jpg" height="200px">
+            <div style="font-weight: bold;"><a href="P4.html" class="previous previous2"> << previous </a></div>
+            </div>
+        </div>
+        </div>
+        </body>
+    
+</html>
